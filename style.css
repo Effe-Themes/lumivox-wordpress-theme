@@ -1,0 +1,239 @@
+/*
+Theme Name: Lumivox
+Theme URI: https://effethemes.com/themes/lumivox-wordpress-theme/
+Author: Effe Themes
+Author URI: https://effethemes.com/
+Description: Lumivox is a bold and versatile block theme with a dark, immersive design crafted for agencies, studios, and forward-thinking businesses. Its glowing animated background adds a layer of elegance and movement, making it an ideal choice for marketing sites, creative portfolios or corporate pages. With full site editing (FSE) support, you get complete freedom over structure, colors and fonts with no coding required. Whether you're building a refined business presence or a daring visual experience, Lumivox blends cutting-edge style with top-tier performance and flexibility to bring your brand to life online.
+Requires at least: 6.6
+Tested up to: 6.6
+Requires PHP: 5.7
+Version: 1.2.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: lumivox
+Tags: blog, portfolio, block-styles, e-commerce, full-site-editing, two-columns, full-width-template, custom-logo, custom-menu, custom-background, editor-style, block-patterns, custom-header, translation-ready, template-editing
+*/
+
+/* ================= > General Styles < ================= */
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--wp--preset--color--custom-background-primary);
+  color: var(--wp--preset--color--custom-text-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+a {
+  color: inherit;
+  -webkit-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul > li > a {
+  text-decoration: none;
+}
+
+ul > li > a:hover {
+  color: var(--wp--preset--color--custom-primary) !important;
+}
+
+:where(.wp-site-blocks) > * {
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+}
+
+.is-style-outline > a {
+  background: transparent !important;
+}
+
+.wp-block-search.wp-block-search__button-only .wp-block-search__button {
+  display: block !important;
+}
+
+.full-width-image,
+.full-width-image > img {
+  width: 100% !important;
+}
+
+/* ================= > Popup < ================= */
+
+.lumivox-fixed-message {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  background: var(--wp--preset--color--custom-primary) !important;
+  padding: 20px 20px;
+  z-index: 1000;
+  word-wrap: break-word;
+  max-height: 70% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lumivox-fixed-message a {
+  color: #fff;
+  writing-mode: vertical-rl;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  word-wrap: break-word;
+  max-height: 70% !important;
+}
+
+/* ================= > Header < ================= */
+
+.wp-block-site-title > a {
+  text-decoration: none;
+}
+
+.wp-block-site-title > a:hover {
+  color: var(--wp--preset--color--custom-primary) !important;
+}
+
+.wp-block-navigation-item:hover {
+  color: var(--wp--preset--color--custom-primary) !important;
+}
+
+.wp-block-navigation__responsive-container-content {
+  -webkit-box-align: start !important;
+      -ms-flex-align: start !important;
+          align-items: start !important;
+}
+
+.wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container {
+  border: 0 !important;
+}
+
+.wp-block-navigation-submenu > li {
+  background: var(--wp--preset--color--custom-background-secondary) !important;
+  color: var(--wp--preset--color--custom-text-color);
+}
+
+.header-search-icon > div > button {
+  background: transparent;
+  padding: 0;
+}
+
+/* ================= > Hero < ================= */
+
+.hero {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200%;
+  height: 80%;
+  background: radial-gradient(ellipse at center, rgba(162, 0, 191, 0.5) 0%, transparent 70%);
+  z-index: 2;
+  pointer-events: none;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 3;
+}
+
+/* ================= > Blog < ================= */
+
+.wp-block-post-title > a:hover {
+  color: var(--wp--preset--color--custom-primary) !important;
+}
+
+.wp-block-button__link,
+.wp-block-search__button {
+  background: var(--wp--preset--color--custom-primary);
+  -webkit-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.wp-block-button__link:hover,
+.wp-block-search__button:hover {
+  opacity: 0.8;
+}
+
+input,
+textarea {
+  background: var(--wp--preset--color--custom-background-secondary);
+  color: #fff !important;
+}
+
+/* ================= > Footer < ================= */
+
+.copy > a {
+  text-decoration: none;
+}
+
+.copy > a:hover {
+  opacity: 0.8;
+}
+
+/* ================= > Media Queries < ================= */
+
+@media (max-width: 1024px) {
+  .wp-block-columns {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .hero-cta-buttons {
+    justify-self: baseline;
+  }
+}
+
+@media (max-width: 992px) {
+  .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) .wp-block-navigation__responsive-container-close,
+  .wp-block-navigation__responsive-container-open:not(.always-shown),
+  .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) {
+    display: none;
+  }
+
+  .wp-block-navigation__responsive-container-open:not(.always-shown) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .wp-block-navigation__container {
+    --navigation-layout-justification-setting: flex-start !important;
+    --navigation-layout-justify: flex-start !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .wp-block-buttons {
+    flex-direction: column;
+  }
+}
