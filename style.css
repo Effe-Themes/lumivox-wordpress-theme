@@ -3,11 +3,11 @@ Theme Name: Lumivox
 Theme URI: https://effethemes.com/themes/lumivox-wordpress-theme/
 Author: Effe Themes
 Author URI: https://effethemes.com/
-Description: Lumivox is a bold and versatile block theme with a dark, immersive design crafted for agencies, studios, and forward-thinking businesses. Its glowing animated background adds a layer of elegance and movement, making it an ideal choice for marketing sites, creative portfolios or corporate pages. With full site editing (FSE) support, you get complete freedom over structure, colors and fonts with no coding required. Whether you're building a refined business presence or a daring visual experience, Lumivox blends cutting-edge style with top-tier performance and flexibility to bring your brand to life online.
+Description: Lumivox is a bold and immersive block theme designed for creative agencies, studios and digital-forward brands that value presence and precision. With a refined dark UI, expressive typography and soft ambient effects, it sets the stage for experiences that feel modern, elegant and intentional. Every layout is built to let your content shine, while subtle gradients and visual accents bring depth and atmosphere.
 Requires at least: 6.6
 Tested up to: 6.6
 Requires PHP: 5.7
-Version: 1.2.1
+Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: lumivox
@@ -211,6 +211,11 @@ textarea {
   .hero-cta-buttons {
     justify-self: baseline;
   }
+
+  .hero-content > div {
+    max-width: max-content !important;
+  }
+
 }
 
 @media (max-width: 992px) {

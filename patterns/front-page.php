@@ -7,35 +7,42 @@
 ?>
 <!-- wp:template-part {"slug":"header","tagName":"header"} /-->
 
-<!-- wp:group {"tagName":"main","metadata":{"name":"main"},"layout":{"type":"default"}} -->
-<main class="wp-block-group"><!-- wp:group {"tagName":"main","style":{"background":{"backgroundImage":{"url":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/hero.jpg","id":2166,"source":"file","title":"hero"},"backgroundSize":"cover","backgroundPosition":"51% 90%"},"spacing":{"padding":{"top":"16rem","bottom":"4rem"}}},"layout":{"type":"constrained"}} -->
-<main class="wp-block-group" style="padding-top:16rem;padding-bottom:4rem"><!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column {"width":"60%"} -->
-<div class="wp-block-column" style="flex-basis:60%"><!-- wp:heading {"textAlign":"left","level":1,"style":{"typography":{"fontSize":"63px"}}} -->
-<h1 class="wp-block-heading has-text-align-left" style="font-size:63px"><?php esc_html_e('Creative Work That Actually Works', 'lumivox');?></h1>
-<!-- /wp:heading -->
+<!-- wp:group {"align":"full","layout":{"type":"default"}} -->
+<div class="wp-block-group alignfull"><!-- wp:group {"tagName":"section","align":"full","className":"hero","layout":{"type":"default"}} -->
+<section class="wp-block-group alignfull hero"><!-- wp:group {"align":"full","className":"hero-content","style":{"spacing":{"padding":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|60"},"color":{"text":"#F1F1F1"}},"layout":{"type":"constrained","contentSize":"50%"}} -->
+<div class="wp-block-group alignfull hero-content has-text-color" style="color:#F1F1F1;padding-top:0;padding-bottom:0"><!-- wp:spacer {"height":"var:preset|spacing|60"} -->
+<div style="height:var(--wp--preset--spacing--60)" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
 
-<!-- wp:paragraph {"align":"left","style":{"elements":{"link":{"color":{"text":"#e1ecf7a1"}}},"color":{"text":"#e1ecf7a1"}}} -->
-<p class="has-text-align-left has-text-color has-link-color" style="color:#e1ecf7a1"><?php esc_html_e('We blend strategy, design and technology to craft digital experiences that go beyond aesthetics. Our focus is on creating websites that connect, convert and leave a lasting impression. Every project is grounded in purpose, shaped by creativity and built to deliver real impact for your brand.', 'lumivox');?></p>
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|50"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
+<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30","padding":{"right":"0","left":"0","top":"0","bottom":"0"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
+<div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:heading {"textAlign":"center","level":1,"style":{"typography":{"fontSize":"70px","lineHeight":"1.1","letterSpacing":"-1px","fontWeight":"700","fontStyle":"normal"}}} -->
+<h1 class="wp-block-heading has-text-align-center" style="font-size:70px;font-style:normal;font-weight:700;letter-spacing:-1px;line-height:1.1"><?php esc_html_e('Design-driven solutions for tomorrow’s brands', 'lumivox');?></h1>
+<!-- /wp:heading --></div>
+<!-- /wp:group -->
+
+<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}},"elements":{"link":{"color":{"text":"var:preset|color|custom-text-color"}}}},"textColor":"custom-text-color"} -->
+<p class="has-text-align-center has-custom-text-color-color has-text-color has-link-color" style="margin-top:0px;margin-bottom:0px"><?php esc_html_e('Through creative strategy, smart technology and purposeful design, we help brands build digital experiences that stand out visually, engage meaningfully and grow with intention.', 'lumivox');?></p>
 <!-- /wp:paragraph --></div>
-<!-- /wp:column -->
+<!-- /wp:group -->
 
-<!-- wp:column {"verticalAlignment":"bottom"} -->
-<div class="wp-block-column is-vertically-aligned-bottom"><!-- wp:group {"className":"hero-cta-buttons","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"right"}} -->
-<div class="wp-block-group hero-cta-buttons"><!-- wp:buttons {"className":"hero-button","layout":{"type":"flex","justifyContent":"left"}} -->
-<div class="wp-block-buttons hero-button"><!-- wp:button {"backgroundColor":"custom-primary","className":"is-style-fill","style":{"spacing":{"padding":{"left":"var:preset|spacing|70","right":"var:preset|spacing|70"}},"border":{"width":"0px","style":"none","radius":"5px"}}} -->
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-custom-primary-background-color has-background wp-element-button" href="#" style="border-style:none;border-width:0px;border-radius:5px;padding-right:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--70)"><?php esc_html_e('Get Started', 'lumivox');?></a></div>
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-buttons"><!-- wp:button {"gradient":"custom-main-gradiant","style":{"color":{"text":"#ffffff"},"spacing":{"padding":{"left":"var:preset|spacing|60","right":"var:preset|spacing|60","top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}},"border":{"radius":"100px"},"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"500"}}} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-custom-main-gradiant-gradient-background has-text-color has-background has-custom-font-size wp-element-button" style="border-radius:100px;color:#ffffff;padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--60);font-size:16px;font-style:normal;font-weight:500"><?php esc_html_e('Request Proposal', 'lumivox');?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
-<!-- wp:buttons {"className":"hero-button","layout":{"type":"flex","justifyContent":"left"}} -->
-<div class="wp-block-buttons hero-button"><!-- wp:button {"className":"is-style-outline","style":{"spacing":{"padding":{"left":"var:preset|spacing|70","right":"var:preset|spacing|70"}},"border":{"radius":"5px","width":"2px"}},"borderColor":"custom-primary"} -->
-<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-border-color has-custom-primary-border-color wp-element-button" href="#" style="border-width:2px;border-radius:5px;padding-right:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--70)"><?php esc_html_e('About Us', 'lumivox');?></a></div>
-<!-- /wp:button --></div>
-<!-- /wp:buttons --></div>
+<!-- wp:spacer {"height":"var:preset|spacing|60"} -->
+<div style="height:var(--wp--preset--spacing--60)" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer --></div>
+<!-- /wp:group --></section>
+<!-- /wp:group -->
+
+<!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:image {"width":"auto","height":"600px","aspectRatio":"16/9","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"full-width-image is-style-default","style":{"border":{"radius":"40px"}}} -->
+<figure class="wp-block-image size-full is-resized has-custom-border full-width-image is-style-default"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/hero.webp" alt="" class="" style="border-radius:40px;aspect-ratio:16/9;object-fit:cover;width:auto;height:600px"/></figure>
+<!-- /wp:image --></div>
 <!-- /wp:group --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns --></main>
 <!-- /wp:group -->
 
 <!-- wp:spacer {"height":"var:preset|spacing|80"} -->
@@ -43,38 +50,59 @@
 <!-- /wp:spacer -->
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"var:preset|spacing|70"}}}} -->
+<div class="wp-block-group"><!-- wp:group {"style":{"border":{"radius":"40px"},"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70","left":"var:preset|spacing|70","right":"var:preset|spacing|70"}}},"backgroundColor":"custom-background-secondary","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-custom-background-secondary-background-color has-background" style="border-radius:40px;padding-top:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--70)"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"5px"}}} -->
-<figure class="wp-block-image size-full has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/about.jpg" alt="" style="border-radius:5px"/></figure>
-<!-- /wp:image --></div>
-<!-- /wp:column -->
-
-<!-- wp:column -->
-<div class="wp-block-column"><!-- wp:group {"layout":{"type":"default"}} -->
-<div class="wp-block-group"><!-- wp:group {"layout":{"type":"default"}} -->
-<div class="wp-block-group"><!-- wp:heading {"style":{"border":{"top":{"width":"0px","style":"none"},"right":{"width":"0px","style":"none"},"bottom":{"color":"var:preset|color|custom-primary","width":"1px"},"left":{"width":"0px","style":"none"}},"spacing":{"padding":{"top":"0","bottom":"var:preset|spacing|40"}}}} -->
-<h2 class="wp-block-heading" style="border-top-style:none;border-top-width:0px;border-right-style:none;border-right-width:0px;border-bottom-color:var(--wp--preset--color--custom-primary);border-bottom-width:1px;border-left-style:none;border-left-width:0px;padding-top:0;padding-bottom:var(--wp--preset--spacing--40)"><?php esc_html_e('About Us', 'lumivox');?></h2>
+<div class="wp-block-column"><!-- wp:group {"style":{"border":{"radius":"40px","width":"0px","style":"none"},"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}},"shadow":"var:preset|shadow|natural"},"layout":{"type":"default"}} -->
+<div class="wp-block-group" style="border-style:none;border-width:0px;border-radius:40px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;box-shadow:var(--wp--preset--shadow--natural)"><!-- wp:heading {"textAlign":"left"} -->
+<h2 class="wp-block-heading has-text-align-left"><?php esc_html_e('About', 'lumivox');?></h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph -->
-<p><?php esc_html_e('We are a team of designers, developers and strategists driven by a shared passion for creating meaningful digital experiences. With a focus on clarity, innovation and impact, we help brands define their voice, elevate their presence and connect with people in powerful ways. Every project is a collaboration and every detail matters.', 'lumivox');?></p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group -->
+<!-- wp:paragraph {"align":"left"} -->
+<p class="has-text-align-left"><?php esc_html_e('We’re a digital agency focused on helping bold brands grow through design, technology and strategy. Our team brings together creativity and precision to craft seamless experiences that are built for impact. We believe in strong ideas, thoughtful execution and lasting results.', 'lumivox');?></p>
+<!-- /wp:paragraph -->
 
-<!-- wp:buttons {"className":"hero-button","layout":{"type":"flex","justifyContent":"left"}} -->
-<div class="wp-block-buttons hero-button"><!-- wp:button {"backgroundColor":"custom-primary","className":"is-style-fill","style":{"spacing":{"padding":{"left":"var:preset|spacing|70","right":"var:preset|spacing|70"}},"border":{"width":"0px","style":"none","radius":"5px"}}} -->
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-custom-primary-background-color has-background wp-element-button" href="#" style="border-style:none;border-width:0px;border-radius:5px;padding-right:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--70)"><?php esc_html_e('Read More', 'lumivox');?></a></div>
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"left"}} -->
+<div class="wp-block-buttons"><!-- wp:button {"gradient":"custom-main-gradiant","style":{"color":{"text":"#ffffff"},"spacing":{"padding":{"left":"var:preset|spacing|60","right":"var:preset|spacing|60","top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}},"border":{"radius":"100px"},"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"500"}}} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-custom-main-gradiant-gradient-background has-text-color has-background has-custom-font-size wp-element-button" style="border-radius:100px;color:#ffffff;padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--60);font-size:16px;font-style:normal;font-weight:500"><?php esc_html_e('Read More', 'lumivox');?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"40px"}}} -->
+<figure class="wp-block-image size-full has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/about.webp" alt="" class="" style="border-radius:40px"/></figure>
+<!-- /wp:image --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
+<!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:spacer {"height":"var:preset|spacing|60"} -->
-<div style="height:var(--wp--preset--spacing--60)" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer --></main>
+<!-- wp:spacer {"height":"var:preset|spacing|80"} -->
+<div style="height:var(--wp--preset--spacing--80)" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:group {"style":{"border":{"radius":"40px","width":"0px","style":"none"},"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70","left":"var:preset|spacing|70","right":"var:preset|spacing|70"}},"shadow":"var:preset|shadow|natural"},"backgroundColor":"custom-background-secondary","layout":{"type":"default"}} -->
+<div class="wp-block-group has-custom-background-secondary-background-color has-background" style="border-style:none;border-width:0px;border-radius:40px;padding-top:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--70);box-shadow:var(--wp--preset--shadow--natural)"><!-- wp:heading {"textAlign":"center"} -->
+<h2 class="wp-block-heading has-text-align-center"><?php esc_html_e('Let’s build something exceptional', 'lumivox');?></h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center"><?php esc_html_e('If you’re ready to take your brand to the next level, we’d love to hear from you. Reach out and let’s start crafting your next digital chapter together.', 'lumivox');?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-buttons"><!-- wp:button {"gradient":"custom-main-gradiant","style":{"color":{"text":"#ffffff"},"spacing":{"padding":{"left":"var:preset|spacing|60","right":"var:preset|spacing|60","top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}},"border":{"radius":"100px"},"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"500"}}} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-custom-main-gradiant-gradient-background has-text-color has-background has-custom-font-size wp-element-button" style="border-radius:100px;color:#ffffff;padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--60);font-size:16px;font-style:normal;font-weight:500"><?php esc_html_e('Book a Call', 'lumivox');?></a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group --></div>
 <!-- /wp:group -->
+
+<!-- wp:spacer {"height":"var:preset|spacing|80"} -->
+<div style="height:var(--wp--preset--spacing--80)" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
 
 <!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->

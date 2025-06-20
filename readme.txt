@@ -14,9 +14,19 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 #### Fonts:
 
-Poppins
-Copyright 2020 The Poppins Project Authors (https://github.com/itfoundry/Poppins)
-Source: https://indiantypefoundry.com
+Poppins  
+Copyright 2020 The Poppins Project Authors (https://github.com/itfoundry/Poppins)  
+Source: https://indiantypefoundry.com  
+License: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
+
+Montserrat  
+Copyright 2011 The Montserrat Project Authors (https://github.com/JulietaUla/Montserrat)  
+Source: https://fonts.google.com/specimen/Montserrat  
+License: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
+
+Open Sans  
+Copyright 2011 The Open Sans Project Authors (https://github.com/googlefonts/opensans)  
+Source: https://fonts.google.com/specimen/Open+Sans  
 License: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
 
 #### Screenshots:
@@ -24,6 +34,7 @@ License: This Font Software is licensed under the SIL Open Font License, Version
 License: Creative Commons Zero (CC0)
 License URL: https://creativecommons.org/publicdomain/zero/1.0/
 Source: https://pxhere.com/pt/photo/1451089
+        https://pxhere.com/pt/photo/1596629
 
 == Copyright ==
 

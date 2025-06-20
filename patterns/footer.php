@@ -5,42 +5,25 @@
  * Inserter: no
  */
 ?>
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"0","right":"0","left":"0"}},"border":{"top":{"color":"#a3a3a380","width":"1px"},"right":{"width":"0px","style":"none"},"bottom":{"width":"0px","style":"none"},"left":{"width":"0px","style":"none"}}},"layout":{"type":"default"}} -->
-<div class="wp-block-group" style="border-top-color:#a3a3a380;border-top-width:1px;border-right-style:none;border-right-width:0px;border-bottom-style:none;border-bottom-width:0px;border-left-style:none;border-left-width:0px;padding-top:var(--wp--preset--spacing--80);padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column {"width":"30%"} -->
-<div class="wp-block-column" style="flex-basis:30%"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group"><!-- wp:site-title {"level":2,"fontSize":"large"} /-->
-
-<!-- wp:paragraph -->
-<p><?php esc_html_e('We blend strategy, design and technology to craft digital experiences that go beyond aesthetics.', 'lumivox');?></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:social-links {"iconColor":"custom-text-color","iconColorValue":"#fdfdfd","showLabels":true,"className":"is-style-logos-only","layout":{"type":"flex","justifyContent":"left"}} -->
-<ul class="wp-block-social-links has-visible-labels has-icon-color is-style-logos-only"><!-- wp:social-link {"url":"#","service":"instagram"} /-->
-
-<!-- wp:social-link {"url":"#","service":"linkedin"} /-->
-
-<!-- wp:social-link {"url":"#","service":"x"} /-->
-
-<!-- wp:social-link {"url":"#","service":"dribbble"} /--></ul>
-<!-- /wp:social-links --></div>
+<!-- wp:group {"className":"footer-glow","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|60"}}},"backgroundColor":"custom-background-secondary","layout":{"inherit":true,"type":"constrained"}} -->
+<div class="wp-block-group footer-glow has-custom-background-secondary-background-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column {"width":"60%"} -->
+<div class="wp-block-column" style="flex-basis:60%"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"constrained","contentSize":"75%","justifyContent":"left"}} -->
+<div class="wp-block-group"><!-- wp:heading -->
+<h2 class="wp-block-heading"><?php /* Translators: 1. is the start of a 'em' HTML element, 2. is the end of a 'em' HTML element */ 
+echo sprintf( esc_html__( '%1$sDriven by purpose. Defined by design.%2$s', 'lumivox' ), '<em>', '</em>' ); ?></h2>
+<!-- /wp:heading --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group"><!-- wp:heading {"fontSize":"large"} -->
-<h2 class="wp-block-heading has-large-font-size"><?php esc_html_e('Quick Links', 'lumivox');?></h2>
+<div class="wp-block-group"><!-- wp:heading -->
+<h2 class="wp-block-heading"><?php esc_html_e('Pages', 'lumivox');?></h2>
 <!-- /wp:heading -->
 
-<!-- wp:list {"style":{"spacing":{"padding":{"top":"0","bottom":"0"}}}} -->
-<ul style="padding-top:0;padding-bottom:0" class="wp-block-list"><!-- wp:list-item -->
-<li><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element */ 
-echo sprintf( esc_html__( '%1$sHome%2$s', 'lumivox' ), '<a href="' . esc_url( '#' ) . '">', '</a>' ); ?></li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
 <li><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element */ 
 echo sprintf( esc_html__( '%1$sAbout Us%2$s', 'lumivox' ), '<a href="' . esc_url( '#' ) . '">', '</a>' ); ?></li>
 <!-- /wp:list-item -->
@@ -52,47 +35,17 @@ echo sprintf( esc_html__( '%1$sServices%2$s', 'lumivox' ), '<a href="' . esc_url
 
 <!-- wp:list-item -->
 <li><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element */ 
-echo sprintf( esc_html__( '%1$sProjects%2$s', 'lumivox' ), '<a href="' . esc_url( '#' ) . '">', '</a>' ); ?></li>
+echo sprintf( esc_html__( '%1$sServices%2$s', 'lumivox' ), '<a href="' . esc_url( '#' ) . '">', '</a>' ); ?></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element */ 
-echo sprintf( esc_html__( '%1$sContact%2$s', 'lumivox' ), '<a href="' . esc_url( '#' ) . '">', '</a>' ); ?></li>
-<!-- /wp:list-item --></ul>
-<!-- /wp:list --></div>
-<!-- /wp:group --></div>
-<!-- /wp:column -->
-
-<!-- wp:column -->
-<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group"><!-- wp:heading {"fontSize":"large"} -->
-<h2 class="wp-block-heading has-large-font-size"><?php esc_html_e('Resources', 'lumivox');?></h2>
-<!-- /wp:heading -->
-
-<!-- wp:list -->
-<ul class="wp-block-list"><!-- wp:list-item -->
 <li><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element */ 
 echo sprintf( esc_html__( '%1$sNews%2$s', 'lumivox' ), '<a href="' . esc_url( '#' ) . '">', '</a>' ); ?></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
 <li><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element */ 
-echo sprintf( esc_html__( '%1$sDocumentation%2$s', 'lumivox' ), '<a href="' . esc_url( '#' ) . '">', '</a>' ); ?></li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element */ 
-echo sprintf( esc_html__( '%1$sFAQs%2$s', 'lumivox' ), '<a href="' . esc_url( '#' ) . '">', '</a>' ); ?></li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element */ 
-echo sprintf( esc_html__( '%1$sSupport%2$s', 'lumivox' ), '<a href="' . esc_url( '#' ) . '">', '</a>' ); ?></li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element */ 
-echo sprintf( esc_html__( '%1$sPrivacy Policy%2$s', 'lumivox' ), '<a href="' . esc_url( '#' ) . '">', '</a>' ); ?></li>
+echo sprintf( esc_html__( '%1$sTestimonials%2$s', 'lumivox' ), '<a href="' . esc_url( '#' ) . '">', '</a>' ); ?></li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list --></div>
 <!-- /wp:group --></div>
@@ -100,58 +53,50 @@ echo sprintf( esc_html__( '%1$sPrivacy Policy%2$s', 'lumivox' ), '<a href="' . e
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group"><!-- wp:heading {"fontSize":"large"} -->
-<h2 class="wp-block-heading has-large-font-size"><?php esc_html_e('Business', 'lumivox');?></h2>
+<div class="wp-block-group"><!-- wp:heading -->
+<h2 class="wp-block-heading"><?php esc_html_e('Legal', 'lumivox');?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:list -->
 <ul class="wp-block-list"><!-- wp:list-item -->
 <li><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element */ 
-echo sprintf( esc_html__( '%1$sPricing%2$s', 'lumivox' ), '<a href="' . esc_url( '#' ) . '">', '</a>' ); ?></li>
+echo sprintf( esc_html__( '%1$sPrivacy Policy%2$s', 'lumivox' ), '<a href="' . esc_url( '#' ) . '">', '</a>' ); ?></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
 <li><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element */ 
-echo sprintf( esc_html__( '%1$sCase Studies%2$s', 'lumivox' ), '<a href="' . esc_url( '#' ) . '">', '</a>' ); ?></li>
+echo sprintf( esc_html__( '%1$sConditions%2$s', 'lumivox' ), '<a href="' . esc_url( '#' ) . '">', '</a>' ); ?></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
 <li><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element */ 
-echo sprintf( esc_html__( '%1$sPartners%2$s', 'lumivox' ), '<a href="' . esc_url( '#' ) . '">', '</a>' ); ?></li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element */ 
-echo sprintf( esc_html__( '%1$sCareers%2$s', 'lumivox' ), '<a href="' . esc_url( '#' ) . '">', '</a>' ); ?></li>
+echo sprintf( esc_html__( '%1$sContact Us%2$s', 'lumivox' ), '<a href="' . esc_url( '#' ) . '">', '</a>' ); ?></li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>
-<!-- /wp:columns --></div>
-<!-- /wp:group -->
+<!-- /wp:columns -->
 
 <!-- wp:spacer {"height":"var:preset|spacing|30"} -->
 <div style="height:var(--wp--preset--spacing--30)" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:group {"style":{"border":{"top":{"color":"#a3a3a380","width":"1px"},"right":{"width":"0px","style":"none"},"bottom":{"width":"0px","style":"none"},"left":{"width":"0px","style":"none"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group" style="border-top-color:#a3a3a380;border-top-width:1px;border-right-style:none;border-right-width:0px;border-bottom-style:none;border-bottom-width:0px;border-left-style:none;border-left-width:0px"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
-<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)"><!-- wp:paragraph {"align":"center","className":"copy"} -->
-<p class="has-text-align-center copy"><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the start of a 'mark' HTML element, 3. is the end of a 'mark' HTML element, 4. is the end of a 'a' HTML element */ 
+<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"align":"left","className":"copy","style":{"typography":{"textDecoration":"none"}}} -->
+<p class="has-text-align-left copy" style="text-decoration:none"><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the start of a 'mark' HTML element, 3. is the end of a 'mark' HTML element, 4. is the end of a 'a' HTML element */ 
 echo sprintf( esc_html__( 'Proudly powered by WordPress | Designed by: %1$s%2$sEffe Themes%3$s%4$s', 'lumivox' ), '<a href="' . esc_url( 'https://effethemes.com/' ) . '" target="_blank" rel="noreferrer noopener">', '<mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-primary-color">', '</mark>', '</a>' ); ?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap"}} -->
-<div class="wp-block-group"><!-- wp:paragraph {"align":"center","className":"copy"} -->
-<p class="has-text-align-center copy"><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element */ 
-echo sprintf( esc_html__( '%1$sTerms of Use%2$s', 'lumivox' ), '<a href="' . esc_url( '#' ) . '">', '</a>' ); ?></p>
-<!-- /wp:paragraph -->
+<!-- wp:social-links {"iconColor":"custom-text-color","iconColorValue":"#f6f6f6","className":"is-style-logos-only"} -->
+<ul class="wp-block-social-links has-icon-color is-style-logos-only"><!-- wp:social-link {"url":"#","service":"instagram"} /-->
 
-<!-- wp:paragraph {"align":"center","className":"copy"} -->
-<p class="has-text-align-center copy"><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element */ 
-echo sprintf( esc_html__( '%1$sPrivacy Policy%2$s', 'lumivox' ), '<a href="' . esc_url( '#' ) . '">', '</a>' ); ?></p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group --></div>
-<!-- /wp:group --></div>
+<!-- wp:social-link {"url":"#","service":"linkedin"} /-->
+
+<!-- wp:social-link {"url":"#","service":"facebook"} /-->
+
+<!-- wp:social-link {"url":"#","service":"youtube"} /-->
+
+<!-- wp:social-link {"url":"#","service":"twitter"} /--></ul>
+<!-- /wp:social-links --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
