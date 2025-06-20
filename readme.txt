@@ -7,6 +7,10 @@ Requires PHP: 5.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
+== Description ==
+
+Lumivox is a bold and immersive block theme designed for creative agencies, studios and digital-forward brands that value presence and precision. With a refined dark UI, expressive typography and soft ambient effects, it sets the stage for experiences that feel modern, elegant and intentional. Every layout is built to let your content shine, while subtle gradients and visual accents bring depth and atmosphere.
+
 == Changelog ==
 
 = 1.0.0 =
