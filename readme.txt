@@ -13,6 +13,9 @@ Lumivox is a bold and immersive block theme designed for creative agencies, stud
 
 == Changelog ==
 
+= 1.0.3 =
+* Added fixed banner
+
 = 1.0.2 =
 * Fix: Capitalize 'WordPress' in Theme URI to comply with trademark guidelines
 
