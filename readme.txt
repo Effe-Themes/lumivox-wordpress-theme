@@ -13,6 +13,9 @@ Lumivox is a bold and immersive block theme designed for creative agencies, stud
 
 == Changelog ==
 
+= 1.1.0 =
+Removed popup
+
 = 1.0.4 =
 * Removed fixed banner
 
